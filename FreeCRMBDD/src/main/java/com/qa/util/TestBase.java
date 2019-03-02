@@ -41,6 +41,8 @@ public class TestBase {
 			
 	}
 			
+			//This is my git commit
+			
 			driver.manage().window().maximize();
 			
 			driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT,TimeUnit.SECONDS);
@@ -49,7 +51,7 @@ public class TestBase {
 			driver.manage().deleteAllCookies();
 			
 			driver.get(pro.getProperty("url"));
-			System.out.println("abc");
+			System.out.println("My code is pushed");
 			
 		
 		
