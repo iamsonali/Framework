@@ -51,7 +51,7 @@ public class TestBase {
 			driver.manage().deleteAllCookies();
 			
 			driver.get(pro.getProperty("url"));
-			System.out.println("Bhoomika code is pushed");
+			System.out.println("Sonali code is pushed");
 			
 		
 		
