@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/lenovo/workspace/FreeCRMBDD/src/main/java/Features/facebook.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("facebook.feature");
 formatter.feature({
   "line": 2,
   "name": "Facebook login",
@@ -44,28 +44,26 @@ formatter.match({
   "location": "StepDef.user_opens_browser()"
 });
 formatter.result({
-  "duration": 88559256311,
-  "status": "passed"
+  "duration": 20097310382,
+  "error_message": "java.lang.NullPointerException: null value in entry: url\u003dnull\r\n\tat com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)\r\n\tat com.google.common.collect.SingletonImmutableBiMap.\u003cinit\u003e(SingletonImmutableBiMap.java:42)\r\n\tat com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)\r\n\tat com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)\r\n\tat com.qa.util.TestBase.initialization(TestBase.java:54)\r\n\tat glue.StepDef.user_opens_browser(StepDef.java:61)\r\n\tat ✽.Given user opens browser(facebook.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "StepDef.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 54110412826,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDef.user_enters_username_and_password()"
 });
 formatter.result({
-  "duration": 149223127703,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDef.home_page_is_displayed()"
 });
 formatter.result({
-  "duration": 142344,
-  "status": "passed"
+  "status": "skipped"
 });
 });
